@@ -494,6 +494,10 @@ The platform supports Gmail integration allowing users to connect their Gmail ac
 
 For detailed setup instructions, see the [Gmail Configuration Guide](guides/gmail-configuration.md).
 
+## Default landing page and hiding apps
+
+To choose the app a browser opens first and hide apps in a workspace, see [Default landing page and hiding apps](guides/branding-and-app-filtering.md).
+
 
 ## Love Service (Audio & Video calls)
 

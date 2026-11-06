@@ -1,0 +1,9 @@
+{
+  "huly.example.com": {
+    "key": "huly",
+    "protocol": "https",
+    "defaultApplication": "document",
+    "defaultSpace": "core:space:Workspace",
+    "defaultSpecial": "browser"
+  }
+}
