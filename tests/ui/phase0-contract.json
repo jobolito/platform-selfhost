@@ -1,0 +1,28 @@
+{
+  "landingPath": "document/core:space:Workspace/browser",
+  "landingNavigatorTitle": "Documents",
+  "landingPageTitle": "Teamspaces",
+  "landingMinTableRows": 1,
+  "apps": [
+    { "id": "card", "navigatorTitle": "Cards" },
+    { "id": "tracker", "navigatorTitle": "Tracker" },
+    { "id": "chunter", "navigatorTitle": "Chat" },
+    { "id": "contact", "navigatorTitle": "Contacts" },
+    { "id": "document", "navigatorTitle": "Documents" }
+  ],
+  "widgets": ["calendar"],
+  "railApps": [
+    "workbench", "notification", "time", "card", "contact", "chunter",
+    "tracker", "document", "drive", "setting", "support", "calendar"
+  ],
+  "forbiddenApps": [
+    "hr", "love", "process", "testManagement", "products", "recruit", "lead",
+    "inventory", "training", "survey", "documents", "github", "telegram", "gmail", "questions"
+  ],
+  "pluginsOn": ["Calendar", "Cards", "Chat", "Documents", "Tracker"],
+  "pluginsOff": [
+    "Human resources", "Office", "Process configuration", "Test Management", "Github",
+    "Telegram", "Email", "Questions", "Products", "Controlled Documents", "Inventory",
+    "CRM", "Rating", "Recruiting", "Surveys", "Trainings"
+  ]
+}

@@ -1,0 +1,19 @@
+# Add branding.json to the deployment. Merge into compose.override.yml, or add this file
+# to COMPOSE_FILE, then recreate the three services:
+#   docker compose up -d --no-deps front account workspace
+services:
+  account:
+    environment:
+      - BRANDING_PATH=/run/huly/branding.json
+    volumes:
+      - ./branding.json:/run/huly/branding.json:ro
+  workspace:
+    environment:
+      - BRANDING_PATH=/run/huly/branding.json
+    volumes:
+      - ./branding.json:/run/huly/branding.json:ro
+  front:
+    environment:
+      - BRANDING_URL=http${SECURE:+s}://${HOST_ADDRESS}/branding.json
+    volumes:
+      - ./branding.json:/app/dist/branding.json:ro
