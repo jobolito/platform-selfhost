@@ -2,7 +2,8 @@
   "name": "selfhost-ui-smoke",
   "private": true,
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "test:config": "node --test workspace-config.node-test.cjs"
   },
   "devDependencies": {
     "@playwright/test": "^1.55.0",
